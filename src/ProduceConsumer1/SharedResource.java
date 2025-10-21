@@ -19,6 +19,7 @@ public class SharedResource {
 
         this.value=value;
         available=true;
+        System.out.println(Thread.currentThread().getName() + "produces " + value);
         notifyAll();
 
     }

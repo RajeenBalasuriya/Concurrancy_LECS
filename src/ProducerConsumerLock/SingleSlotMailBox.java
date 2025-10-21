@@ -46,6 +46,7 @@ public class SingleSlotMailBox implements MailBox {
 
             Integer value = this.slot;
             this.available = false;
+            notEmpty.signalAll();
             return value;
 
         } finally {

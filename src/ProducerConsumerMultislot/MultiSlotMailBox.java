@@ -1,4 +1,4 @@
-package ProducerConsumerLock;
+package ProducerConsumerMultislot;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
